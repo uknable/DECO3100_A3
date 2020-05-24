@@ -1,4 +1,4 @@
-// Made with template from https://codepen.io/bcd/pen/BdJXpP by Branden
+// Made with template from https://codepen.io/bcd/pen/BdJXpP by Branden for inital
 Plotly.d3.csv("nicCage.csv", function (err, rows) {
 
     function unpack(rows, key) {
@@ -27,8 +27,8 @@ Plotly.d3.csv("nicCage.csv", function (err, rows) {
             args: [[frames[i]], {
                 mode: 'immediate',
                 fromcurrent: true,
-                transition: { duration: 0 },
-                frame: { duration: 0, redraw: true }
+                transition: { duration: 750 },
+                frame: { duration: 750, redraw: true }
             }]
         })
     }
@@ -58,7 +58,7 @@ Plotly.d3.csv("nicCage.csv", function (err, rows) {
             family: "Roboto"
         },
         font: {
-            size: 11
+            size: 12
         },
         xaxis: {
             title: "",
@@ -121,10 +121,10 @@ Plotly.d3.csv("nicCage.csv", function (err, rows) {
                     mode: 'immediate',
                     fromcurrent: true,
                     transition: {
-                        duration: 0,
+                        duration: 750,
                     },
                     frame: {
-                        duration: 40,
+                        duration: 750,
                         redraw: true
                     }
                 }],
