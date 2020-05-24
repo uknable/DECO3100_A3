@@ -55,7 +55,7 @@ Plotly.d3.csv("nicCage.csv", function (err, rows) {
         title: "Nicolas Cage's Inconsistent Acting Career",
         titlefont: {
             size: 45,
-            family: "Roboto"
+            family: "serif"
         },
         font: {
             size: 12
@@ -63,7 +63,7 @@ Plotly.d3.csv("nicCage.csv", function (err, rows) {
         xaxis: {
             title: "",
             rangemode: "tozero",
-            range: [0, 84],
+            range: [-1, 84],
             tickangle: 45,
             // showgrid: false
         },
